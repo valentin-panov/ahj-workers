@@ -2,4 +2,4 @@
 import './css/style.css';
 import './js/app';
 
-import './js/engine/service-worker';
+import './js/engine/service.worker';

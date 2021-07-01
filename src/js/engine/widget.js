@@ -23,10 +23,10 @@ export default class Widget {
     if (navigator.serviceWorker) {
       window.addEventListener('load', async () => {
         try {
-          await navigator.serviceWorker.register('/service-worker.js', { scope: './' });
+          await navigator.serviceWorker.register('./service.worker.js', { scope: './' });
           console.log('service worker registered');
         } catch (err) {
-          console.error('register worker error: ', err);
+          console.log('service worker register error: ', err);
         }
       });
     }
