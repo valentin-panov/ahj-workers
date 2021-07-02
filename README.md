@@ -1,5 +1,7 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/gne6bps4pamw6box?svg=true)](https://ci.appveyor.com/project/vapanov/ahj-workers)
 
+WEB VERSION: https://valentin-panov.github.io/ahj-workers/
+
 Правила сдачи задания:
 
 1. **Важно**: в рамках этого ДЗ можно использовать любой менеджер пакетов

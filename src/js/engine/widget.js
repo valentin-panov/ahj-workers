@@ -70,8 +70,8 @@ export default class Widget {
   }
 
   async getData() {
-    // const baseURL = 'https://rxjs-email.herokuapp.com/news';
-    const baseURL = 'http://localhost:3000/news';
+    const baseURL = 'https://vapanov-sw.herokuapp.com/news';
+    // const baseURL = 'http://localhost:3000/news';
 
     try {
       const request = await fetch(baseURL);
