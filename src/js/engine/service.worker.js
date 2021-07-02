@@ -6,13 +6,13 @@ const cacheName = `ahj-${version}`;
 const files = ['./', './index.html', './main.js', './main.css'];
 
 self.addEventListener('install', (event) => {
-  console.log('SW Installed');
-  event.waitUntil(() => {
+  console.log('SW Installed. Cache name:', cacheName);
+  event.waitUntil(
     caches
       .open(cacheName)
       .then((cache) => cache.addAll(files))
-      .then(self.skipWaiting());
-  });
+      .then(self.skipWaiting())
+  );
 });
 
 self.addEventListener('activate', () => {
